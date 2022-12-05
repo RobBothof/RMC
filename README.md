@@ -1,5 +1,12 @@
 # RMC
-code for Musical instrument aimed at live performance / improvisation
+
+The RMC is a complete music improvisation setup build entirely from scratch. It is my personal live improvisation rig and the result of years of experimentation, improvisation with all kinds of d.i.y. instruments and live setups. Inputs feature Japanese arcade controls and high quality pots and faders via a custom low latency input scheme. Processing is done on the UP2 development board with Intel Celeron N3350 CPU, 2 Gb ram, running debian linux in combination with a teensy 3.6 board (for input scanning and led control). Software is developed in C++ in combination with puredata (in the form of libpd) as an audio engine. Dual Midi-Clock output is provided to jam with friends in sync.
+
+This Repository holds the code for this project. It is written in C++ and uses LibPD as an audio engine. It also a includes a couple of custom PureData externals written in C.
+
+
+![rob-bothof-RMC-00-scaled](https://user-images.githubusercontent.com/10440099/205630137-19375b77-c200-49c6-a073-ec51e47442cf.jpg)
+
 
 Structure overview:
 
